@@ -1,0 +1,44 @@
+#include <stdio.h>
+int main() {
+int n;
+int U[100], A[100], B[100];
+int i;
+printf("Enter the size of Universal Set: ");
+scanf("%d", &n);
+printf("Enter the elements of Universal Set:\n");
+for (i = 0; i < n; i++) {
+scanf("%d", &U[i]);
+}
+printf("Enter the elements of Set A:\n");
+for (i = 0; i < n; i++) {
+scanf("%d", &A[i]);
+}
+printf("Enter the elements of Set B:\n");
+for (i = 0; i < n; i++) {
+scanf("%d", &B[i]);
+}
+printf("Universal Set is: ");
+for (i = 0; i < n; i++) {
+printf("%d ", U[i]);
+}
+printf("\nSet A is: ");
+for (i = 0; i < n; i++) {
+printf("%d ", A[i]);
+}
+printf("\nSet B is: ");
+for (i = 0; i < n; i++) {
+printf("%d ", B[i]);
+}
+printf("union");
+for(i=0;i<5;i++){
+if(uni[i]==1){
+printf("%d",u[i]);
+}
+}
+printf("}");
+printf("Intersection of A and B in bit representation");
+for(i=0;i<5;i++){
+ints[i]=A[i]&b[i];
+printf("%d",ints[i]);
+}
+printf("Intersection {");
